@@ -1,0 +1,18 @@
+@use "../../../../styles" as *;
+
+#text-panel {
+  height: 100%;
+  width: 100%;
+  border: thin solid $border-color;
+  border-radius: $border-radius;
+  display: flex;
+
+  .textarea {
+    width: 100%;
+    height: 100%;
+    resize: none;
+    background-color: $bg-color;
+    border-radius: $border-radius;
+    border: none;
+  }
+}
