@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import {SearchPanelComponent} from "./components/layout/search-panel/search-panel.component";
-import {TextPanelComponent} from "./components/layout/text-panel/text-panel.component";
+import {SearchPanelComponent} from "./layout/search-panel/search-panel.component";
+import {TextPanelComponent} from "./layout/text-panel/text-panel.component";
 
 @Component({
   selector: 'app-root',
